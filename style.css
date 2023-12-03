@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.page1{
+    height: 100vh;
+    width: 100%;
+    /* background-color: chocolate; */
+    background-image: url(https://i.pinimg.com/564x/26/16/b4/2616b4aea2bc1821f29ef6c9fc161f0f.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.9;
+}
+
+nav{
+    height: 15vh;
+    width: 100%;
+    /* background-color: darkred; */
+    /* clip-path: polygon(100% 0, 100% 100%, 91% 49%, 0 49%, 0 0); */
+    /* clip-path: polygon(100% 0, 100% 100%, 93% 61%, 0 60%, 0 0); */
+    display: flex;
+    justify-content: space-between;
+    padding: 1.8vmax 3vmax;
+    /* background-color: orangered; */
+    align-items: center;
+}
+.logo{
+    /* background-color: pink; */
+    height: 15vh;
+    width: 20vw;
+    background-image: url(./icecream_logo-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menuicon{
+    height: 30px;
+    width: 30px;
+    margin-right: -1.2vmax;
+    /* background-color: orange; */
+    border-radius: 50%;
+    /* backdrop-filter: blur(5vmax); */
+
+}
+.menu{
+    height: 100%;
+    width: 100%;
+
+}
+.menu{
+    font-size: 2vmax;
+    cursor: pointer;
+    font-weight: 900;
+}
+.menuicon >i{
+    padding: 0.2vmax;
+    font-size: 2vmax;
+    border-radius: 50%;
+    border: 0.3vmax solid transparent;
+    transition: all linear 0.3s;
+    opacity: 0;
+    backdrop-filter: blur(1vmax);
+    font-weight: 700;
+    color: rgb(70,45,29);
+    cursor: pointer;
+}
+.menuicon >i:hover{
+    box-shadow: 0 0 0.3vmax rgb(70,45,29);
+}
+.ri-home-7-line{
+    position: absolute;
+    right: 7%;
+    top: 2%;
+    /* transition: all linear 0.3s; */
+    
+}
+.ri-shopping-cart-2-line{
+    position: absolute;
+    top: 17%;
+    /* transition: all linear 0.3s; */
+    right: 2%;
+}
+.ri-customer-service-2-line{
+    position: absolute;
+    right: 5.5%;
+    /* transition: all linear 0.3s; */
+    top: 15.5%;
+}
+.ri-user-2-line{
+    position: absolute;
+    right: 8%;
+    /* transition: all linear 0.3s; */
+    top: 9%;
+}
+.page1-contener{
+    height: 85vh;
+    width: 100%;
+    /* background-color: palegreen; */
+}
+.page1-left{
+    height: 85vh;
+    width: 60%;
+    /* background-color: orange; */
+    padding-left:4vmax ;
+}
+.page1-left >h5{
+    padding-top: 5vmax;
+    font-size: 1vmax;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page1-left >h1{
+    font-size: 4vmax;
+    line-height: 4vmax;
+    padding-bottom: 2vmax;
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(36,29,26);
+}
+.page1-left >h1 >span{
+    color: rgb(129,73,52);
+}
+.page1-left >p{
+    width: 90%;
+    font-size: 1.5vmax;
+    font-family: 'Edu SA Beginner', cursive;
+    /* font-family: cursive; */
+    line-height: 1.5vmax;
+}
+.page1button{
+    /* margin-top: 2vmax; */
+    height: 27vh;
+    width: 18vw;
+    background-image: url(./button\ background.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size:20vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-2vmax);
+}
+.page1button >h1{
+    transform: translateY(1.7vmax);
+    font-size: 1.5vmax;
+    color:rgb(232,219,201);
+}
